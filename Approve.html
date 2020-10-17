@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #9ded91;
+}
+
+
+.header {
+      padding:8px;
+    font-size: 25px;
+	width: 25%;
+	margin-left: 35%;
+	box-shadow: 5px 10px 8px 10px #888888;
+
+    text-align: center;
+}
+
+
+
+.leftcolumn {   
+    float: left;
+	margin-left: 10%;
+    width: 75%;
+}
+
+
+
+
+
+.fakeimg {
+    background-color: #fff;
+    width: 60%;
+    padding: 20px;
+	margin-bottom: 20px;
+	margin-left: 20%;
+}
+.fakeblog {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+	margin-bottom: 20px;
+}
+.faketitle {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+	margin-bottom: 20px;
+}
+
+
+.card {
+     background-color: #faa550;
+     padding: 20px;
+     margin-top: 30px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#list{
+margin-left: 60px;
+}
+#input1{
+width: 50px;
+border : none;
+background: none;
+pointer-events: none;
+
+}
+button{
+font-size: 20px;
+margin-top: 10px;
+
+}
+
+@media (min-width: 364px) and (max-width: 800px) {
+    .leftcolumn {   
+        width: 100%;
+        padding: 0;
+		margin-left: 0;
+    }
+	.header{
+	width: 100%;
+	margin-left: 0;
+	
+	}
+	#list{
+margin-left: 0px;
+}
+#lit{
+margin-left: -30px;
+}
+}
+@media (max-width: 363px)
+{
+.leftcolumn {   
+        width: 100%;
+        padding: 0;
+		margin-left: 0;
+    }
+	.header{
+	width: 100%;
+	margin-left: 0;
+	
+	}
+	#list{
+margin-left: 0px;
+}
+#lit{
+margin-left: -39px;
+}
+
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Blog Approval</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+	   <div class="faketitle" style="height:50px;">Title will appear here</div>
+	       <div class="fakeimg" style="height:200px;">Image related with blog</div>
+	    <div class="fakeblog" style="height:200px;">Written blog will appear here</div>
+  
+      
+     
+    </div>
+	
+
+
+</div>
+</div>
+		
+  
+
+		<div class="container">
+                 
+   <ul class="pager">
+    <li id="lit"><a href="#">Approve</a></li>
+    <li><a href="#">Reject</a></li>
+    <li id="list"><a href="#">Previous</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+</div>
+    
+ 
+
+
+
+
+</body>
+
+
+</html>
