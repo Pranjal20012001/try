@@ -21,7 +21,14 @@ body
 	background:rgba(0,0,0,0.5) ;
 	
 }
-
+@media (max-width: 768px){
+	.loginBox
+	{
+		width: 100%;
+	}
+	
+}
+	
 
 
 h2
