@@ -155,4 +155,17 @@ h4 a{
 	}
 	
 }
+@media (max-width:768px){
+	
+.loginBox input[type="submit"]{
+	margin-left: 35%;
+	width: 120px;
+	
+}
+	
+	#anc{
+		margin-left: 36%;
+	}
+}
+
 
