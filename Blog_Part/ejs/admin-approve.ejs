@@ -1,0 +1,12 @@
+
+    <% newitems.forEach(function(item) { %>
+     <form action="/admin/approve" method="post">
+        <h2 id="title"> <%=  item.title %> </h2>
+        <p id="content"> <%=  item.content %> </p>
+        <button class="btn btn-primary" type="submit" name="approve" value="<%=item._id%>" >Approve</button>
+        <button class="btn btn-primary" name="delete" value="<%=item._id%>" formaction="/admin/delete">Delete</button> <br>
+        <button class="btn btn-primary">Previous</button>
+    <button class="btn btn-primary" id="next">Next</button>
+    </form>
+       <% }) %>
+        
